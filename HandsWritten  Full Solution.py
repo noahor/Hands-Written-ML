@@ -61,5 +61,5 @@ _,accuracy = test_error_rate
 print('Accuracy: %.2f' % (accuracy*100))
 
 # Save your Model 
-model.save("C:\\Users\\oron.noah\\OneDrive - Zerto\\DeepLearining Workshop\\HandsWritten_Ex\\HandWritten.h5")
+model.save("HandWritten.h5")
 
