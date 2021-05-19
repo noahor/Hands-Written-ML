@@ -1,4 +1,6 @@
 import keras
+import matplotlib.pyplot as plt
+import imageio
 from keras.datasets import mnist
 from keras.preprocessing.image import load_img, array_to_img
 from keras.utils.np_utils import to_categorical
@@ -8,9 +10,7 @@ from keras.layers import Dense
 from keras.layers import Dropout
 from keras.layers import Flatten
 from skimage import io, color
-from PIL import Image
-import matplotlib.pyplot as plt
-import imageio
+
 
 
 
@@ -61,5 +61,5 @@ _,accuracy = test_error_rate
 print('Accuracy: %.2f' % (accuracy*100))
 
 # Save your Model 
-model.save("HandWritten.h5")
+model.save("Hands-Written-ML/HandWritten.h5")
 
